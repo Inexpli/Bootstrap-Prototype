@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #5C5C5C;
+}
+
+.first-text {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #20262A;
+}
+
+.second-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #5C5C5C;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.logo {
+    max-width: 430px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-l {
+    font-family: 'Chakra Petch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #20262A;
+    font-size: 1.8rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+@media screen and (max-width: 1220px) {
+    .logo {
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .logo {
+        max-width: 400px;
+    }
+
+    .menu-l {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .logo {
+        max-width: 370px;
+    }
+
+    .menu-l {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        max-width: 340px;
+    }
+    .menu-l {
+        font-size: 1.5rem;
+    }
+
+    .nav-item {
+        padding-top: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .logo {
+        max-width: 300px;
+    }
+    .menu-l {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .logo {
+        max-width: 250px;
+    }
+    .menu-l {
+        font-size: 1.3rem;
+    }
+}
+
+.title {
+    font-family: 'Chakra Petch';
+    color: #00B6F0;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 78px;
+}
+
+.vector-1 {
+    position: absolute;
+    width: 626.46px;
+    left: -394.61px;
+    top: 35.73%;
+    bottom: -38.8%;
+    background: #00B6F0;
+    border-radius: 90%;
+    transform: rotate(68.94deg);
+    z-index: -1;
+}
+
+.vector-2 {
+    position: absolute;
+    height: 475.1px;
+    top: 366px;
+    left: 81.98%;
+    right: -53.86%;
+    border-radius: 90%;
+    background: #F3CD03;
+    z-index: -1;
+}
