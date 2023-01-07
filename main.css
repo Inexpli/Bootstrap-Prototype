@@ -1,16 +1,20 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #5C5C5C;
+    overflow-x: hidden;
+}
+
+.std {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.26) 40.5%, #FFFFFF 90.92%);
 }
 
 .first-text {
     font-family: 'Chakra Petch';
     font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
+    font-weight: 700;
+    font-size: 50px;
     line-height: 20px;
     letter-spacing: 0.2px;
-    text-transform: uppercase;
     color: #20262A;
 }
 
@@ -85,6 +89,10 @@ body {
     .nav-item {
         padding-top: 2rem !important;
     }
+
+    .desc-l {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -105,12 +113,79 @@ body {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .txt1 {
+        font-size: 20px;
+    }
+
+    .button {
+        font-size: 30px !important;
+    }
+
+    .list {
+        font-size: 20px !important;
+    }
+
+    .specs {
+        font-size: 45px !important;
+    }
+
+    .desc-l {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title-l {
+        text-align: center !important;
+    }
+
+    .desc-l {
+        text-align: center !important;
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .txt1 {
+        font-size: 17px;
+    }
+
+    .button {
+        font-size: 26px !important;
+    }
+
+    .list {
+        font-size: 20px !important;
+    }
+
+    li {
+        font-size: 18px !important;
+    }
+
+    .desc-l {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px !important;
+    }
+}
+
 .title {
     font-family: 'Chakra Petch';
     color: #00B6F0;
     font-weight: 700;
     font-size: 72px;
     line-height: 78px;
+}
+
+.title-l {
+    font-size: 36px !important;
+}
+
+.desc-l {
+    text-align: left;
 }
 
 .vector-1 {
@@ -127,11 +202,24 @@ body {
 
 .vector-2 {
     position: absolute;
-    height: 475.1px;
-    top: 366px;
+    height: 675.1px;
+    top: 466px;
     left: 81.98%;
     right: -53.86%;
     border-radius: 90%;
     background: #F3CD03;
     z-index: -1;
+}
+
+.button {
+    background: #00B6F0;
+    border-radius: 85px;
+    border-color: transparent;
+    width: 100%;
+    max-width: 313px;
+    height: 92px;
+    font-family: 'Chakra Petch';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
 }
