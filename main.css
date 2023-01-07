@@ -129,10 +129,6 @@ body {
     .specs {
         font-size: 45px !important;
     }
-
-    .desc-l {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -164,13 +160,39 @@ body {
     }
 
     .desc-l {
-        font-size: 16px;
+        font-size: 16px !important;
     }
 
     li {
         font-size: 16px !important;
     }
+
+    .title {
+        font-size: 65px !important;
+    }
 }
+
+@media screen and (max-width: 400px) {
+    .button {
+        font-size: 22px !important;
+        height: 82px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .button {
+        font-size: 20px !important;
+        height: 72px !important;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .button {
+        font-size: 20px !important;
+        height: 62px !important;
+    }
+}
+
 
 .title {
     font-family: 'Chakra Petch';
@@ -198,6 +220,7 @@ body {
     border-radius: 90%;
     transform: rotate(68.94deg);
     z-index: -1;
+    opacity: 0.50;
 }
 
 .vector-2 {
@@ -209,6 +232,7 @@ body {
     border-radius: 90%;
     background: #F3CD03;
     z-index: -1;
+    opacity: 0.70;
 }
 
 .button {
@@ -222,4 +246,17 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 20px;
+}
+
+.nav-item {
+    text-align: right !important;
+}
+
+.progress-bar {
+    background-color:#00B6F0 !important;
+}
+
+.slide {
+    padding: 2px;
+    background-color: #505D70;
 }
