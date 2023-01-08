@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #5C5C5C;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .std {
@@ -140,6 +140,15 @@ body {
         text-align: center !important;
         font-size: 20px !important;
     }
+
+    .g-c {
+        max-height: none !important;
+        overflow: none !important;  
+    }
+
+    .left-g {
+        max-height: none !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -151,12 +160,10 @@ body {
         font-size: 26px !important;
     }
 
-    .list {
-        font-size: 20px !important;
-    }
+
 
     li {
-        font-size: 17px !important;
+        font-size: 18px !important;
     }
 
     .desc-l {
@@ -166,11 +173,19 @@ body {
     .title {
         font-size: 55px !important;
     }
+
+    .socials {
+        font-size: 45px !important;
+    }
 }
 
 @media screen and (max-width: 450px) {
     .socials {
         font-size: 40px !important;
+    }
+
+    .title {
+        line-height: 70px !important;
     }
 }
 
@@ -185,11 +200,15 @@ body {
     }
 
     li {
-        font-size: 15px !important;
+        font-size: 16px !important;
     }
 
     .socials {
         font-size: 35px !important;
+    }
+
+    .title {
+        line-height: 60px !important;
     }
 }
 
@@ -233,6 +252,10 @@ body {
         font-size: 28px !important;
         line-height: 40px !important;
     }
+
+    li {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width: 300px) {
@@ -249,12 +272,24 @@ body {
         font-size: 23px !important;
         line-height: 40px !important;
     }
+
+    li {
+        font-size: 14px !important;
+    }
+    
+    .txt1 {
+        font-size: 15px !important;
+    }
 }
 
 @media screen and (max-width: 270px) {
     .button {
         font-size: 20px !important;
         height: 62px !important;
+    }
+
+    .logo {
+        max-width: 230px !important;
     }
 }
 
