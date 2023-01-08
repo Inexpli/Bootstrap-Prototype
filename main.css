@@ -66,6 +66,14 @@ body {
     .menu-l {
         font-size: 1.7rem;
     }
+
+    .details {
+        font-size: 48px !important;
+    }
+
+    .rest {
+        font-size: 28px !important;
+    }
 }
 
 @media screen and (max-width: 1070px) {
@@ -93,6 +101,24 @@ body {
     .desc-l {
         font-size: 18px;
     }
+
+    .details {
+        font-size: 43px !important;
+    }
+
+    .rest {
+        font-size: 23px !important;
+        line-height: 30px !important;
+        margin: 0;
+    }
+
+    .info {
+        height: 230px !important;
+    }
+
+    .active {
+        padding: 0 !important;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -101,6 +127,16 @@ body {
     }
     .menu-l {
         font-size: 1.4rem;
+    }
+
+    .details {
+        font-size: 37px !important;
+    }
+
+    .rest {
+        font-size: 18px !important;
+        line-height: 20px !important;
+        margin: 0;
     }
 }
 
@@ -129,9 +165,14 @@ body {
     .specs {
         font-size: 45px !important;
     }
+
+    .d-t {
+        font-size: 26px !important;
+        line-height: 5px !important;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.5px) {
     .title-l {
         text-align: center !important;
     }
@@ -149,6 +190,22 @@ body {
     .left-g {
         max-height: none !important;
     }
+
+    .info {
+        height: 130px !important;
+    }
+
+    .pg1 {
+        margin-bottom: 15px !important;
+    }
+
+    .active {
+        text-align: center !important;
+    }
+
+    .btc {
+        text-align: center !important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -159,8 +216,6 @@ body {
     .button {
         font-size: 26px !important;
     }
-
-
 
     li {
         font-size: 18px !important;
@@ -179,6 +234,22 @@ body {
     }
 }
 
+@media screen and (max-width: 575px) {
+    .details {
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .details {
+        font-size: 26px !important;
+    }
+
+    .info {
+        height: 110px !important;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .socials {
         font-size: 40px !important;
@@ -186,6 +257,16 @@ body {
 
     .title {
         line-height: 70px !important;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .info {
+        height: 150px !important;
+    }
+
+    .details {
+        line-height: 40px !important;
     }
 }
 
@@ -258,6 +339,16 @@ body {
     }
 }
 
+@media screen and (max-width: 310px) {
+    .ddate {
+        font-size: 22px !important;
+    }
+
+    .details {
+        font-size: 23px !important;
+    }
+}
+
 @media screen and (max-width: 300px) {
     .button {
         font-size: 20px !important;
@@ -290,6 +381,10 @@ body {
 
     .logo {
         max-width: 230px !important;
+    }
+
+    .details {
+        font-size: 20px !important;
     }
 }
 
