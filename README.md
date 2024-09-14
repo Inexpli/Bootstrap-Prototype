@@ -1,4 +1,4 @@
-﻿# Bootstrap-Prototype
+﻿# Figma-To-Bootstrap
 ## A college assignment involving designing a mobile-first website in Figma and then transforming it into a real one
 
 An example mobile-fist website promoting a startup made in Figma: 
